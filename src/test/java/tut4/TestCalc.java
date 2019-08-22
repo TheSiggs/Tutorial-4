@@ -34,6 +34,7 @@ public class TestCalc
     public void testApp()
     {
         Calc c = new Calc();
-        assertTrue(c.add(2,4) == 4);
+        assertTrue(c.add(2,2) == 4);
+        assertTrue(c.subtract(2,2) == 4);
     }
 }
